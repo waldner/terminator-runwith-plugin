@@ -81,7 +81,7 @@ also be used, without the need to set a named group that captures everything.
 This is also the only available option if the pattern was one of the built-in
 ones.
 - `in-terminal`: whether to run the command in the current terminal, as if it
-were typed using the keyword. Can be `True` or `False`.
+were typed using the keyboard. Can be `True` or `False`.
 - `use-shell`: if the command is not run in the terminal, whether to use a shell
 to interpret it or not. Whether to set this to `True` or `False` depends on the
 actual command that you want to run. 
