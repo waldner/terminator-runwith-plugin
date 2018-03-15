@@ -42,6 +42,10 @@ Add the following to your Terminator configuration file (usually
           in-terminal = False 
  ```
 
+(The same settings can be configured using the plugin's own GUI configuration, accessible
+with right-click -> Run With -> Configure, but directly editing the configuration is the
+fastest way for now).
+
 Now look for **.c** and **.py** filenames in your terminal output, and
 right-click on them to see the different actions presented in the plugin menu
 depending on the file type.
