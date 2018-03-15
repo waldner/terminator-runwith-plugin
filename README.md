@@ -3,7 +3,7 @@ framework. To use it, you need
 [my terminator fork](https://github.com/waldner/terminator), which adds support for
 the **plugin_ng** plugin framework.
 
-To install the plugin, copy `runwith_plugin.py` in the plugin directory (typically
+To install the plugin, copy `runwith_plugin.py` to the plugin directory (typically
 `~/.config/terminator/plugins`), launch terminator and enable the plugin (or edit 
 the configuration file directly).
 
