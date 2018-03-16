@@ -87,13 +87,15 @@ class RunWithNg(plugin.PluginNg):
         #    selected_text = clipboard.request_text(lambda c, t, d: None, None)
         #    clipboard.set_text(saved_clipboard_text, -1)
 
+
         # Top level entry, expands to our own submenu
-        if matched_text != None:
+        if matched_text != None and match_key != None:
             run_with_item = Gtk.MenuItem.new_with_mnemonic(('%s: ' % self.config[match_key]['name']) + _('_Run With'))
         else:
             run_with_item = Gtk.MenuItem.new_with_mnemonic(_('_Run With'))
 
         menuitems.append(run_with_item)
+
 
         # actual submenu
         run_with_submenu = Gtk.Menu()
