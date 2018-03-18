@@ -1,6 +1,6 @@
 This is the first and (so far) only Terminator plugin to implement the **plugin_ng**
 framework. To use it, you need
-[my terminator fork](https://github.com/waldner/terminator), which adds support for
+[my terminator fork](https://code.launchpad.net/~waldner/terminator/plugin-ng), which adds support for
 the **plugin_ng** plugin framework.
 
 To install the plugin, copy `runwith_plugin.py` to the plugin directory (typically
